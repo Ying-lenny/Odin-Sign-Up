@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    border-radius: 3px;
+    padding: 1em;
+}
+  
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.column, fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+label {
+    margin-right: 1em; 
+    padding: .5em 0;
+}
+
+body input {
+    flex: 6; 
+    padding: .5em;
+    margin-bottom: 1em;
+  }
+
+button {
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 8px;
+    width: 110px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 10px;
+    border-color: #F9FAF8;
+}
