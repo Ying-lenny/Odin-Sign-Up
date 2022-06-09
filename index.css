@@ -1,20 +1,28 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: beige;
     border-radius: 3px;
-    padding: 1em;
-}
+    margin: 0;
+ }
   
 .flex-container {
     display: flex;
     justify-content: center;
 }
 
-.column, fieldset {
+.column-picture, .column-form, fieldset {
     display: flex;
     flex-direction: column;
     padding: 1em;
+}
+
+.column-picture {
+    background-image: url("../images/side-picture.jpg");
+    color: #fff;
+}
+
+.column-form {
+    background-color: #fff;
 }
 
 label {
