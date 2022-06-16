@@ -23,6 +23,7 @@ body {
 
 .column-form {
     background-color: #fff;
+    flex-flow: row wrap;
 }
 
 label {
